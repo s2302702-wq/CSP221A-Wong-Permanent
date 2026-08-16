@@ -1,6 +1,8 @@
 from functools import wraps
 import logging
 from abc import ABC, abstractmethod
+logging.basicConfig(level=logging.INFO)
+
 
 class InsufficientBatteryError(Exception):
     def __init__(self, robot_name, required, available):
