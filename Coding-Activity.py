@@ -119,5 +119,3 @@ good1.tasks.append("Clean")
 
 print(good1.tasks)
 print(good2.tasks)
-
-print("Temporary debug test")
